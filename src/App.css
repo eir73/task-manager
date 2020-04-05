@@ -1,0 +1,79 @@
+.App {
+    background: #e0e0e0;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*TODO SECTION START */
+
+.todo-list-wrap {
+    background: darksalmon;
+    width: 40%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.todo-list-header{
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.todo-wrap {
+    display: flex;
+    flex-flow: column;
+    background: lightsteelblue;
+    border-radius: 5px;
+    min-height: 60px;
+    margin-bottom: 1rem;
+}
+.todo-wrap.done {
+    background: lightgreen;
+}
+
+.todo-header {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding: 0.5rem;
+}
+
+.todo-title h5 {
+    font-size: 1.1rem;
+}
+
+.todo-close:hover {
+    color: red;
+}
+
+.todo-main {
+    padding: 0 1rem;
+}
+
+.todo-footer {
+    padding: .5rem;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+}
+
+.todo-done:hover {
+    color: lawngreen;
+}
+
+/*TODO SECTION END*/
+/*DONE SECTION START*/
+
+.done-list-wrap {
+    background: white;
+    width: 40%;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+}
+
+/*DONE SECTION END*/

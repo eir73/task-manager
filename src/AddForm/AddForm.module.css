@@ -1,0 +1,45 @@
+.wrap {
+    background: rgba(192, 192, 192, 0.75);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_wrap {
+    background: white;
+    width: 500px;
+    height: 200px;
+    padding: 0 20px 20px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.close {
+    display: flex;
+    flex-flow: row-reverse;
+}
+.close:hover {
+    color: red;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add_button {
+    display: flex;
+    flex-flow: row-reverse;
+}
